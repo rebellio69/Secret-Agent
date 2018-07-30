@@ -4,11 +4,11 @@ html {
 
 body {
   font-family: "Helvetica" sans-serif;
-  margin: 0 auto;
 }
 
 .container {
   max-width: 960px;
+  margin: 0 auto;
 }
 
 header, footer, .new-arrival {
@@ -32,40 +32,61 @@ header, footer, .new-arrival {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0;
+  height: 25rem;
 }
 
-.menu {
-margin-top: 25rem;
-}
-
-nav {
+.menu nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0rem;
   background-color: firebrick;
   color: white;
-  padding: 0.75rem 0rem;
 }
 
 .new-arrival {
   width: 20rem;
-  padding-top: 2rem;
+  padding: 2rem;
   padding-left: 3rem;
   position: relative;
   top: 9rem;
+  font-weight: bold;
+}
+
+.new-arrival h4 {
+  padding-bottom: 0.25rem;
+  font-size: 1rem;
+}
+
+.new-arrival h1 {
+  font-size: 2rem;
 }
 
 .product-grid {
   display: flex;
   justify-content: space-between;
+  border: 2px solid black;
 }
 
-.product-grid img {
+.product {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 30%;
   height: 9rem;
+  padding: 2rem 0;
+  border: 2px solid black;
 }
 
-.product-grid div {
-  width: 30%;
-  Border: 4px solid black;
+.product-image {
+
+  width: 100%;
+  border: 2px solid black;
+}
+
+.product img {
+    width: 60%;
+    height: auto;
+    border: 2px solid black;
+  }
 }
