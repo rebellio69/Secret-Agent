@@ -65,6 +65,10 @@ ul {
   justify-content: space-between;
 }
 
+.mobile {
+  display: none;
+}
+
 .product-grid, .info {
   display: flex;
   justify-content: space-between;
@@ -115,4 +119,24 @@ footer .container {
   background-color: black;
   color: white;
   margin-top: 4rem;
+}
+
+@media only screen and (max-width: 1024px){
+ nav ul {
+   display: none;
+ }
+ .mobile {
+   display: block;
+   text-align: center;
+ }
+ .product {
+   width: 47%;
+ }
+ .glasses {
+   display: none;
+ }
+}
+
+@media only screen and (max-width: 470px) {
+  
 }
