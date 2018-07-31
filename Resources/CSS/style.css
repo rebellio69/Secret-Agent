@@ -138,5 +138,38 @@ footer .container {
 }
 
 @media only screen and (max-width: 470px) {
-  
+  .banner {
+    height: 15rem;
+  }
+  .new-arrival {
+    width: 100%;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+  .new {
+    font-size: 0.77rem;
+  }
+  .sport {
+    font-size: 1rem;
+  }
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+  .description {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+  .watch {
+    display: none;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
